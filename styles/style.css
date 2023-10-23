@@ -97,7 +97,7 @@ span {
 }
 
 .pokedex-box {
-    background-image: url('/assects/images/pokedex.webp');
+    background-image: url('../assects/images/pokedex.webp');
     background-size: 100%;
     background-repeat: no-repeat;
     width:350px;
