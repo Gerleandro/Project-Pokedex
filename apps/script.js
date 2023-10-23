@@ -2,6 +2,7 @@ const pokeImg = document.getElementById('pokeImage');
 const pokeName = document.getElementById('pokeName');
 const pokeInpSearch = document.getElementById('pokeSeach');
 const logo = document.querySelector(".logo");
+
 let mouseEntered = false;
 
 function stopRotateLogo() {
