@@ -5,6 +5,8 @@ const logo = document.querySelector(".logo");
 
 let mouseEntered = false;
 
+rotatelogo(false);
+
 function stopRotateLogo() {
     logo.classList.remove("myrotate");
 }
