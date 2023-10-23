@@ -1,0 +1,18 @@
+@media screen and (max-width: 530px )  {
+    .logo-title {
+        display: none;
+    }
+    .pokedex-about {
+        display: none;
+    }
+
+    .paragrath-footer {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 430px ) {
+    .paragrath-footer {
+        font-size: 1em;
+    }
+}
+
