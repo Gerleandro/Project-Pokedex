@@ -20,10 +20,14 @@
     </header>
     <main>
         <div class="pokedex-box">
-            <div class="pokeLoad" id="pokeLoad"><div class="efect"></div></div>
-            <img id="pokeImage" class="pokemon-image" src="" alt="pokemon">
-            <span id="pokeName"> 1 - bulbasaur</span>
-            <input id="pokeSearch" type="text">
+            <img id="pokeImg" src="" alt="pokemon" class="pokeImage">
+            <div class="pokemon-data">
+                <span class="pokemon-number" id="pokeNum"></span> -
+                <span class="pokemon-name" id="pokeName"></span>
+            </div>
+            <form class="form">
+                <input type="search" class="input-search" placeholder="Name or Number" required>
+            </form>
             <div class="btn-box">
                 <button id="prevBtn" class="btn">Prev <</button>
                 <button id="nextBtn" class="btn">Next ></button>
